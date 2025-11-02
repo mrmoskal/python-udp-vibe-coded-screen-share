@@ -1,29 +1,3 @@
-import cv2
-import socket
-import threading
-# import numpy as np
-#
-# # Server code
-# def server():
-#     # Create a UDP socket
-#     server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-#     server_socket.bind(('localhost', 5000))
-#
-#     print('Server started. Waiting for client connection...')
-#
-#     while True:
-#         # Receive data from the client
-#         data, addr = server_socket.recvfrom(65536)
-#
-#         # Decode the image data
-#         img = np.frombuffer(data, dtype=np.uint8)
-#         img = cv2.imdecode(img, cv2.IMREAD_COLOR)
-#
-#         # Display the received image
-#         cv2.imshow('Server', img)
-#         cv2.waitKey(1)
-
-
 # Client code
 import mss
 import cv2
