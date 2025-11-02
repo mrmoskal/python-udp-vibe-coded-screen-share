@@ -39,7 +39,7 @@ def client():
 
     # ⚠️ IMPORTANT: Set a fixed, aggressive JPEG compression quality
     # to keep packet sizes small and prevent WinError 10040.
-    encode_param = [int(cv2.IMWRITE_JPEG_QUALITY), 20]
+    encode_param = [int(cv2.IMWRITE_JPEG_QUALITY), 5]
 
     # Initialize the screen capture tool
     sct = mss.mss()
